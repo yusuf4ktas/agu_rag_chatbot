@@ -1,0 +1,42 @@
+# Core API + Server
+fastapi
+uvicorn[standard]
+
+# Embedding model (BGE-M3)
+torch
+transformers
+sentence-transformers
+tokenizers
+
+# Translation models (.opus-mt-tr-en, .opus-mt-en-tr)
+sentencepiece
+sacremoses
+
+# Vector DB
+chromadb
+
+# Qwen (causal LM) + quantization
+bitsandbytes
+accelerate
+
+# Web Scaping
+beautifulsoup4
+
+pymupdf # For parsing .pdf files
+python-docx # For parsing .docx files
+
+requests
+gradio
+
+python-dotenv
+
+# Optional utilities
+numpy
+pydantic
+typing_extensions
+
+
+
+
+
+
